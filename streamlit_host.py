@@ -9,10 +9,10 @@ model = tf.keras.models.load_model("saved_model/plant.h5")
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type="jpg")
 
-map_dict = {0: 'Pepperbell_Bacterial_spot',
-            1: 'Tomato_mosaic_virus',
-            2: 'Tomato_YellowLeaf_Curl_Virus',
-            3: 'Tomato_Two_spotted_spider_mite'
+map_dict = {0: 'Disease: Pepperbell_Bacterial_spot; Solution: Individual leaves with spots should be picked off and destroyed',
+            1: 'Disease: Tomato_mosaic_virus; Solution:  Neem Bliss Neem Oil Fungicide',
+            2: 'Disease: Tomato_YellowLeaf_Curl_Virus; Solution: Spray with azadirachtin (Neem), pyrethrin or insecticidal soap',
+            3: 'Disease: Tomato_Two_spotted_spider_mite; Solution: Avid, Floramite and Hexygon'
             }
           
 
